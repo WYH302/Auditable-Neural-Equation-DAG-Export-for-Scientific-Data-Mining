@@ -98,7 +98,7 @@ The project is pure Python around PyTorch, NumPy, pandas, SymPy, and plotting/ta
 ### 1. Clone
 
 ```bash
-git clone https://github.com/WYH302/Auditable-Neural-Equation-DAG-Export-for-Scientific-Data-Mining.git
+git clone <anonymous-review-url>
 cd Auditable-Neural-Equation-DAG-Export-for-Scientific-Data-Mining
 ```
 
@@ -306,16 +306,16 @@ Planned cleanup items:
 
 ## Citation
 
-Citation metadata will be added after the manuscript metadata is finalized. For now, please cite this repository by URL if you use the code:
+Citation metadata will be added after the manuscript metadata is finalized. During double-blind review, please cite the anonymous artifact link supplied with the submission rather than the public development repository.
 
 ```bibtex
 @misc{auditable_neural_equation_dag_export,
   title        = {Auditable Neural Equation DAG Export for Scientific Data Mining},
-  howpublished = {\url{https://github.com/WYH302/Auditable-Neural-Equation-DAG-Export-for-Scientific-Data-Mining}},
+  howpublished = {Anonymous repository supplied with the double-blind submission},
   year         = {2026}
 }
 ```
 
 ## License
 
-License information is pending. Until a license is added, please contact the repository owner before redistribution or reuse beyond review/research inspection.
+License information is pending for the review artifact. The repository is provided for double-blind peer review and reproducibility inspection.
