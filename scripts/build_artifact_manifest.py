@@ -12,8 +12,8 @@ PAPER = PROJECT_ROOT / "paper" / "paper_cikm2026"
 
 
 def manifest_rows() -> list[dict[str, str]]:
-    py = r"D:\App1\environment\envs\ai_base\python.exe"
-    prefix = r"$env:PYTHONPATH='<project>\code_experiments'; "
+    py = "python"
+    prefix = r"PYTHONPATH=<project>/code_experiments "
     return [
         {
             "name": "equation_export_audit",

@@ -69,7 +69,6 @@ The repository includes scripts for Pareto-style budget comparisons across model
 |-- requirements-optional.txt
 |-- docs/
 |   |-- assets/                         # README figures tracked in Git
-|   `-- superpowers/plans/              # development/revision plan notes
 |-- experiments/
 |   |-- run_tabular.py                  # main tabular training loop and model definitions
 |   `-- run_feynman.py                  # low-dimensional AI-Feynman experiment runner
@@ -86,7 +85,6 @@ The repository includes scripts for Pareto-style budget comparisons across model
 |       |-- export_models.py            # SymPy-style model export helpers
 |       `-- expression_metrics.py       # expression complexity and edit metrics
 |-- tests/                              # unit tests for artifact/table builders
-`-- 下载数据集.txt                       # local dataset download notes
 ```
 
 Ignored local directories include `data/`, `results/`, `results_v2/`, `logs/`, checkpoints, NumPy arrays, archives, and local dependency caches. This keeps the public repository small and reviewable.
