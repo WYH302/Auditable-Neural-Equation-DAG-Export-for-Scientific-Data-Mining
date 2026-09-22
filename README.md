@@ -89,6 +89,14 @@ The repository includes scripts for Pareto-style budget comparisons across model
 
 Ignored local directories include `data/`, `results/`, `results_v2/`, `logs/`, checkpoints, NumPy arrays, archives, and local dependency caches. This keeps the public repository small and reviewable.
 
+## Real-world Robustness & Edge Deployment
+
+The synthetic dataset generator and audit scripts support held-out/OOD evaluation and checkpoint-to-DAG fidelity checks. The figures above are retained artifacts, not a new robustness run. Synthetic extrapolation is different from stability on a newly collected physical instrument or deployed service.
+
+For this scientific-data-mining task, relevant stressors include input noise, unit/scale changes, domain shift and non-finite operator inputs. Evaluate an unchanged checkpoint and record both prediction error and exported-graph fidelity. No edge-device latency, peak-memory, power or quantization-parity measurements are published here. A compact equation is not by itself a measured deployment speedup.
+
+The existing CPU smoke path below is the appropriate starting point; it generates synthetic data and trains small models rather than downloading a released pretrained checkpoint. Full experiment cost depends on the selected models, datasets and epochs.
+
 ## Installation
 
 The project is pure Python around PyTorch, NumPy, pandas, SymPy, and plotting/table-building utilities.
