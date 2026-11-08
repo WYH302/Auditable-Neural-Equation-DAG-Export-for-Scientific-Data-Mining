@@ -35,12 +35,14 @@ Thumbs.db
 # =====================
 # Experiment artifacts
 # =====================
-**/data/
+**/data/*
+!data/journal_external/
 **/dataset/
 **/datasets/
 **/database/
 **/results/
-**/results*/
+**/results*/*
+!results_v2/
 **/outputs/
 **/runs/
 **/logs/
@@ -99,3 +101,16 @@ cikm2026.pdf
 # =====================
 docs/superpowers/
 下载数据集.txt
+
+# Retained lightweight benchmark metadata & summary tables
+!data/journal_external/**
+!results_v2/README.md
+!results_v2/journal_followup/
+!results_v2/journal_followup/*.csv
+!results_v2/journal_followup/*.json
+!results_v2/journal_followup/*.tex
+!results_v2/journal_followup/fault_cases/
+!results_v2/journal_followup/fault_cases/*.json
+!results_v2/journal_external/
+!results_v2/journal_external/*.csv
+!results_v2/journal_external/*.json

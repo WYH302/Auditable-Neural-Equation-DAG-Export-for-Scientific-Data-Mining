@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "methods": [
+    "mlp",
+    "eml_kan",
+    "kan"
+  ],
+  "widths": {
+    "mlp": [
+      4,
+      8,
+      16
+    ],
+    "eml_kan": [
+      2,
+      4,
+      8
+    ],
+    "kan": [
+      2,
+      4,
+      8
+    ]
+  },
+  "learning_rates": [
+    0.001,
+    0.003
+  ],
+  "maximum_full_batch_steps": 600,
+  "validation_every": 20,
+  "early_stopping_patience_steps": 120,
+  "weight_decay": 0.0001,
+  "gate_penalty": 0.0001,
+  "coefficient_penalty": 1e-05,
+  "constant_penalty": 1e-06,
+  "gradient_clip": 1.0,
+  "recurrence_depth": 2,
+  "mlp_hidden_depth": 2,
+  "tau": 2.0,
+  "dtype": "float64",
+  "device": "cpu",
+  "splits": {
+    "train": 1200,
+    "val": 800,
+    "test": 1000,
+    "ood": 1000
+  },
+  "search_candidates_per_method_task_seed": 6,
+  "selection": "Validation NMSE only; test and OOD are never used for selection.",
+  "comparison": "Complete candidate frontier; fixed validation ceilings 1e-2, 1e-3, 1e-4; nearest-validation-NMSE pairs within factor 1.25.",
+  "numeric_literals": "17 significant digits; signed exponent is part of a numeric literal",
+  "primary_graph": "Common expanded primitive vocabulary, followed by dependency-sorted global CSE.",
+  "primary_primitives": [
+    "exp",
+    "log1p",
+    "tanh",
+    "logaddexp",
+    "+",
+    "-",
+    "*",
+    "/",
+    "**"
+  ],
+  "results_scope": "New follow-up study; not a reconstruction of historical GPU checkpoints or historical token counts.",
+  "protocol_sha256": "cbff22ac58485f3f934fd65d07a7e3f33de652ea5c212a9a0e8c17481cd7d0a9",
+  "datasets": [
+    "exp_decay",
+    "log_response",
+    "power_law",
+    "arrhenius_like",
+    "michaelis_menten",
+    "multiplicative_power",
+    "mixed_exp_log",
+    "damped_log_response",
+    "exp_saturation",
+    "two_var_decay",
+    "control_quadratic",
+    "control_kinetic_energy",
+    "control_sine",
+    "control_sine_cosine"
+  ],
+  "numpy_version": "2.4.6",
+  "torch_version": "2.8.0+cu128"
+}

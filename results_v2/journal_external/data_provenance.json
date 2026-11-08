@@ -1,0 +1,1052 @@
+{
+  "selection": {
+    "srsd_revision": "159f9b0986ae71ddaae37486b12860e7001eb5ab",
+    "pmlb_revision": "7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68",
+    "selection_rule": "Before model fitting: SRSD hard uses first three lexically sorted eligible IDs from chapters I, II, III and bonus (1-4 inputs). PMLB Feynman uses first four eligible IDs per chapter I, II, III in the initially inspected first 14 sorted IDs (1-4 inputs). No outcome-based selection.",
+    "srsd": [
+      {
+        "id": "feynman-i.15.3t",
+        "dimension": 3,
+        "formula": "(x0 - 1.11265005605362e-17*x1*x2)/sqrt(1 - 1.11265005605362e-17*x1**2)"
+      },
+      {
+        "id": "feynman-i.15.3x",
+        "dimension": 3,
+        "formula": "(x0 - x1*x2)/sqrt(1 - 1.11265005605362e-17*x1**2)"
+      },
+      {
+        "id": "feynman-i.29.16",
+        "dimension": 4,
+        "formula": "sqrt(x0**2 + 2*x0*x1*cos(x2 - x3) + x1**2)"
+      },
+      {
+        "id": "feynman-ii.11.20",
+        "dimension": 4,
+        "formula": "2.41432350534664e+22*x0*x1**2*x2/x3"
+      },
+      {
+        "id": "feynman-ii.11.27",
+        "dimension": 3,
+        "formula": "8.854e-12*x0*x1*x2/(-x0*x1/3 + 1)"
+      },
+      {
+        "id": "feynman-ii.11.28",
+        "dimension": 2,
+        "formula": "x0*x1/(-x0*x1/3 + 1) + 1"
+      },
+      {
+        "id": "feynman-iii.10.19",
+        "dimension": 4,
+        "formula": "x0*sqrt(x1**2 + x2**2 + x3**2)"
+      },
+      {
+        "id": "feynman-iii.21.20",
+        "dimension": 4,
+        "formula": "-x0*x1*x2/x3"
+      },
+      {
+        "id": "feynman-iii.4.33",
+        "dimension": 2,
+        "formula": "3.313e-34*x0/(pi*(exp(2.39959613196403e-11*x0/(pi*x1)) - 1))"
+      },
+      {
+        "id": "feynman-bonus.1",
+        "dimension": 4,
+        "formula": "3.32662926626791e-57*x0**2*x1**2/(x2**2*sin(x3/2)**4)"
+      },
+      {
+        "id": "feynman-bonus.10",
+        "dimension": 2,
+        "formula": "(-3.33564095198152e-9*x1 + cos(x0))/(-3.33564095198152e-9*x1*cos(x0) + 1)"
+      },
+      {
+        "id": "feynman-bonus.11",
+        "dimension": 4,
+        "formula": "4*x0*sin(x1/2)**2*sin(x2*x3/2)**2/(x1**2*sin(x3/2)**2)"
+      }
+    ],
+    "pmlb": [
+      {
+        "id": "feynman_I_10_7",
+        "dimension": 3
+      },
+      {
+        "id": "feynman_I_12_1",
+        "dimension": 2
+      },
+      {
+        "id": "feynman_I_12_2",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_I_12_4",
+        "dimension": 3
+      },
+      {
+        "id": "feynman_II_10_9",
+        "dimension": 3
+      },
+      {
+        "id": "feynman_II_11_27",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_II_11_28",
+        "dimension": 2
+      },
+      {
+        "id": "feynman_II_13_17",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_III_10_19",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_III_12_43",
+        "dimension": 2
+      },
+      {
+        "id": "feynman_III_13_18",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_III_15_12",
+        "dimension": 3
+      }
+    ],
+    "scope": "New, traceable external-data reruns. These do not reconstruct the historical unidentified clean12 and grouped splits."
+  },
+  "sources": [
+    {
+      "path": "pmlb/feynman_III_10_19.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_III_10_19/feynman_III_10_19.tsv.gz",
+      "bytes": 4388155,
+      "sha256": "e5fb0161067882da4cd9e001b3dcb41ea5ca4fd3d5a00387f0131515d65d3fd9"
+    },
+    {
+      "path": "pmlb/feynman_III_10_19_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_III_10_19/metadata.yaml",
+      "bytes": 1237,
+      "sha256": "5627cec7d1bf1a38b5e21c38a0940b3dfc869eadef49e1f0a05b51e804b40184"
+    },
+    {
+      "path": "pmlb/feynman_III_12_43.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_III_12_43/feynman_III_12_43.tsv.gz",
+      "bytes": 2627452,
+      "sha256": "6b32cddc122a712c549353d32a4b5269440d9fe71d336ff393feaeba3bcea210"
+    },
+    {
+      "path": "pmlb/feynman_III_12_43_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_III_12_43/metadata.yaml",
+      "bytes": 981,
+      "sha256": "8e985aa601266f2fe77d4450635342149213b46eca3e102ca189585d04558a98"
+    },
+    {
+      "path": "pmlb/feynman_III_13_18.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_III_13_18/feynman_III_13_18.tsv.gz",
+      "bytes": 4446539,
+      "sha256": "5f123396e5bd9bf37facd88266cee4b5d8df358a5d99a91c5e0ae131d66dde06"
+    },
+    {
+      "path": "pmlb/feynman_III_13_18_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_III_13_18/metadata.yaml",
+      "bytes": 1165,
+      "sha256": "5d73189f7dca82461f4325f8ff21204dd11f7b180f641d7aec95bab2874464a6"
+    },
+    {
+      "path": "pmlb/feynman_III_15_12.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_III_15_12/feynman_III_15_12.tsv.gz",
+      "bytes": 3513975,
+      "sha256": "4c6187f4a30546bfa58b2b4f37a9ce49b9445452fb0b18b2d3d260e46646e9a4"
+    },
+    {
+      "path": "pmlb/feynman_III_15_12_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_III_15_12/metadata.yaml",
+      "bytes": 1056,
+      "sha256": "9e0ff20197148bcea62f1d66f03c48b24dd549cae60626fdd1ab7ad5d18d7437"
+    },
+    {
+      "path": "pmlb/feynman_II_10_9.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_II_10_9/feynman_II_10_9.tsv.gz",
+      "bytes": 3521049,
+      "sha256": "d38295e7c52e375c2ccbfd53e4ae560886b0d7f4e3114e6502b24d2b0d112c6a"
+    },
+    {
+      "path": "pmlb/feynman_II_10_9_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_II_10_9/metadata.yaml",
+      "bytes": 1148,
+      "sha256": "37d86df346621410ce0dfab32fcd29b9cd6a17cb870c026820846774b4b5aa2b"
+    },
+    {
+      "path": "pmlb/feynman_II_11_27.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_II_11_27/feynman_II_11_27.tsv.gz",
+      "bytes": 4425768,
+      "sha256": "e55c7923a65dfda6c47698f7e6b8bd7faff78c19e0d733dea610c5fd22b1dec9"
+    },
+    {
+      "path": "pmlb/feynman_II_11_27_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_II_11_27/metadata.yaml",
+      "bytes": 1221,
+      "sha256": "dacf1097c8ad0f34b597e95f852b63e9896ff9dfa6614e4eefb92acf6d7a623e"
+    },
+    {
+      "path": "pmlb/feynman_II_11_28.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_II_11_28/feynman_II_11_28.tsv.gz",
+      "bytes": 2652626,
+      "sha256": "7559334251c5d6cceb345a17981cfa0978d033db5ce1eec43af780472c476d8b"
+    },
+    {
+      "path": "pmlb/feynman_II_11_28_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_II_11_28/metadata.yaml",
+      "bytes": 961,
+      "sha256": "b0f66203440bf9f43ca5c951d0ccdd3929fbf48180490936c5b94384e008d35f"
+    },
+    {
+      "path": "pmlb/feynman_II_13_17.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_II_13_17/feynman_II_13_17.tsv.gz",
+      "bytes": 4438318,
+      "sha256": "657f2ead43fc0665a13ad881cc1faf73d1fac1925b5c8a7bc0abfb1033ebc838"
+    },
+    {
+      "path": "pmlb/feynman_II_13_17_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_II_13_17/metadata.yaml",
+      "bytes": 1224,
+      "sha256": "15fbb3925a025393b3355ccb6f9d32b82ac821f5e5e7ad50ec44d8f0df8677e4"
+    },
+    {
+      "path": "pmlb/feynman_I_10_7.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_I_10_7/feynman_I_10_7.tsv.gz",
+      "bytes": 3492271,
+      "sha256": "56afdc436cd0b0a1ed510c2bd780fbeda80daa7006676d1d982f924a350cbe73"
+    },
+    {
+      "path": "pmlb/feynman_I_10_7_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_I_10_7/metadata.yaml",
+      "bytes": 1039,
+      "sha256": "5fe78c195e089893e56225d42c68587cd7c8c372722eff0a530c823300ae582b"
+    },
+    {
+      "path": "pmlb/feynman_I_12_1.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_I_12_1/feynman_I_12_1.tsv.gz",
+      "bytes": 2630211,
+      "sha256": "9e1ec477e8af8356c3b731f8815f19b57bb404bd7c1629a2020bc9d90b0c028a"
+    },
+    {
+      "path": "pmlb/feynman_I_12_1_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_I_12_1/metadata.yaml",
+      "bytes": 953,
+      "sha256": "eb9455adc92086e9d093717ec2e538b88cc8d24a483163647fb92cb76573eb8f"
+    },
+    {
+      "path": "pmlb/feynman_I_12_2.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_I_12_2/feynman_I_12_2.tsv.gz",
+      "bytes": 4423080,
+      "sha256": "6fe281722cd1cf4da63248e09b84f5c11ddf73f13ef29e03e955cae8036548e3"
+    },
+    {
+      "path": "pmlb/feynman_I_12_2_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_I_12_2/metadata.yaml",
+      "bytes": 1221,
+      "sha256": "a75f121e60ca257e7c66c47ba0b540986f62beb94d168af567b7bc7931001978"
+    },
+    {
+      "path": "pmlb/feynman_I_12_4.tsv.gz",
+      "url": "https://media.githubusercontent.com/media/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_I_12_4/feynman_I_12_4.tsv.gz",
+      "bytes": 3564012,
+      "sha256": "5576935381b138bee157c44f39b203aa2e77860a32003494044771c582add97b"
+    },
+    {
+      "path": "pmlb/feynman_I_12_4_metadata.yaml",
+      "url": "https://raw.githubusercontent.com/EpistasisLab/pmlb/7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68/datasets/feynman_I_12_4/metadata.yaml",
+      "bytes": 1114,
+      "sha256": "2bf39f17080fbc91a149318517ab3e5a88541e98c962b93c8b447bb06482e5ff"
+    },
+    {
+      "path": "srsd/README.md",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/README.md",
+      "bytes": 6535,
+      "sha256": "ad91f8fe004e885e69105a94274ce57d017e1110027b6b87c19a6abc2bfed399"
+    },
+    {
+      "path": "srsd/supp_info.json",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/supp_info.json",
+      "bytes": 43853,
+      "sha256": "7b0223403b915184926c06f38ce47d7abcf41bb2661e89c4f19892ac92d66b24"
+    },
+    {
+      "path": "srsd/test/feynman-bonus.1.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-bonus.1.txt",
+      "bytes": 125000,
+      "sha256": "0d468e9ca27a8f9bca7d27b80dbdafaf27ab2dfd2c5732146a8b19deb5e40123"
+    },
+    {
+      "path": "srsd/test/feynman-bonus.10.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-bonus.10.txt",
+      "bytes": 75949,
+      "sha256": "369e3e11c17d8edf378653791de3625895be798c30b4350d819f98dbef1f768d"
+    },
+    {
+      "path": "srsd/test/feynman-bonus.11.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-bonus.11.txt",
+      "bytes": 125000,
+      "sha256": "d02bc94458a9922ca0df96ea6997470b30fc642d488254cfcb7d253e725f3eaa"
+    },
+    {
+      "path": "srsd/test/feynman-i.15.3t.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-i.15.3t.txt",
+      "bytes": 100967,
+      "sha256": "1a86d3000246acd4d8f6b0009ce2d3ee57bd4d18947406374ed1b19b308fb5e0"
+    },
+    {
+      "path": "srsd/test/feynman-i.15.3x.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-i.15.3x.txt",
+      "bytes": 101493,
+      "sha256": "3c6a733d1638910543c136f5709c206f7189a8be7e5908ec939856b9b8b028bb"
+    },
+    {
+      "path": "srsd/test/feynman-i.29.16.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-i.29.16.txt",
+      "bytes": 125000,
+      "sha256": "0447750f1fa837abad84865c1fced01842c92214689a3510f004bc6562e4f5ac"
+    },
+    {
+      "path": "srsd/test/feynman-ii.11.20.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-ii.11.20.txt",
+      "bytes": 126500,
+      "sha256": "535062a75ce541944bd56bde349430fe3783e54a9896f0df87b7e3b3d6038359"
+    },
+    {
+      "path": "srsd/test/feynman-ii.11.27.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-ii.11.27.txt",
+      "bytes": 100000,
+      "sha256": "0a6e699fd64751ca8202c5b63c7359c3f5d0541ef6770b6e2056de431fc711f0"
+    },
+    {
+      "path": "srsd/test/feynman-ii.11.28.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-ii.11.28.txt",
+      "bytes": 75000,
+      "sha256": "8095612dd71b6c5fccf2f5f2a61a077e777e8aee65f49199ec240acdcd7762ee"
+    },
+    {
+      "path": "srsd/test/feynman-iii.10.19.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-iii.10.19.txt",
+      "bytes": 127539,
+      "sha256": "eecbeaec873df731666e9358c93fa92213e05da4d0fc4647cfc46a96f3016b6a"
+    },
+    {
+      "path": "srsd/test/feynman-iii.21.20.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-iii.21.20.txt",
+      "bytes": 128000,
+      "sha256": "eee7d39b963c0836c423beb0cf8ec7c2337712fad6c4ae2c4f50dff089e085f8"
+    },
+    {
+      "path": "srsd/test/feynman-iii.4.33.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/test/feynman-iii.4.33.txt",
+      "bytes": 75000,
+      "sha256": "209dc68d3db036afa026bd3beea61ded1ef8047e9a11f3958a2a9974e9f2b0e3"
+    },
+    {
+      "path": "srsd/train/feynman-bonus.1.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-bonus.1.txt",
+      "bytes": 1000000,
+      "sha256": "ed18aff40bb2d966e2674374a88ef6b9b6b437ec329d0484c10776cf80059c8c"
+    },
+    {
+      "path": "srsd/train/feynman-bonus.10.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-bonus.10.txt",
+      "bytes": 607997,
+      "sha256": "21ace5580e566f39e15ce15320a934b126c5f08916457e165bd35ee0bf39564b"
+    },
+    {
+      "path": "srsd/train/feynman-bonus.11.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-bonus.11.txt",
+      "bytes": 1000000,
+      "sha256": "9ffbd4f02057bff021db82f784fe6159311e1daf9ae7018da8418412082d2acf"
+    },
+    {
+      "path": "srsd/train/feynman-i.15.3t.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-i.15.3t.txt",
+      "bytes": 807899,
+      "sha256": "0b3f51943449d25e7f92933fc30c522eb2bca54bdf8a59558f6fd326502c206a"
+    },
+    {
+      "path": "srsd/train/feynman-i.15.3x.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-i.15.3x.txt",
+      "bytes": 811944,
+      "sha256": "811dda6887d510b798f9a0e17d59e634c6fefa4c86cbcfde94b8c4c0741bf546"
+    },
+    {
+      "path": "srsd/train/feynman-i.29.16.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-i.29.16.txt",
+      "bytes": 1000000,
+      "sha256": "a3f9fefc837bce98d550cae2a1a6cc65e18f192d1ce569d52466ed51293f20fb"
+    },
+    {
+      "path": "srsd/train/feynman-ii.11.20.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-ii.11.20.txt",
+      "bytes": 1011807,
+      "sha256": "a789c4e0255dd14ab2bcc28e05a05cb0c61100b6f4182c5475d644afff057516"
+    },
+    {
+      "path": "srsd/train/feynman-ii.11.27.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-ii.11.27.txt",
+      "bytes": 800000,
+      "sha256": "f46249b435e13ff2d9c049683a8606c02145b0efd51ef1aacd5dc99a3a1429e7"
+    },
+    {
+      "path": "srsd/train/feynman-ii.11.28.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-ii.11.28.txt",
+      "bytes": 600000,
+      "sha256": "84a2643ed5561be06a7e458d429e9e30edd0f27e508662d0b5d9f397e768af4b"
+    },
+    {
+      "path": "srsd/train/feynman-iii.10.19.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-iii.10.19.txt",
+      "bytes": 1020018,
+      "sha256": "e2c66834c2d58dcd3fab5208bdec6cf712926b4425a5a2d76bba1ccb9f38fe11"
+    },
+    {
+      "path": "srsd/train/feynman-iii.21.20.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-iii.21.20.txt",
+      "bytes": 1024000,
+      "sha256": "f128a597c1a51114e5301ee824aaa0a1d0220f582cd22263816738b0bc98f481"
+    },
+    {
+      "path": "srsd/train/feynman-iii.4.33.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/train/feynman-iii.4.33.txt",
+      "bytes": 600000,
+      "sha256": "e68fe6241004e39dae27442f0ebc65351188684d08466162c3b15302e53fc2cd"
+    },
+    {
+      "path": "srsd/val/feynman-bonus.1.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-bonus.1.txt",
+      "bytes": 125000,
+      "sha256": "04ad969900da1199bfdf6ea265a7dc3bbadfd3637f5bdddff3a81e75864d1077"
+    },
+    {
+      "path": "srsd/val/feynman-bonus.10.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-bonus.10.txt",
+      "bytes": 76012,
+      "sha256": "b6989e2d1bbc359e0027a771bf1b30afeaf181fe0b1589428a8f34c9e3ed09cd"
+    },
+    {
+      "path": "srsd/val/feynman-bonus.11.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-bonus.11.txt",
+      "bytes": 125000,
+      "sha256": "df9cee8b45796d66729bddedc0eea35c0f029816765de488bd8952764c4b02e7"
+    },
+    {
+      "path": "srsd/val/feynman-i.15.3t.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-i.15.3t.txt",
+      "bytes": 100996,
+      "sha256": "ca275f33fc502fc80d3b58caa867bc66f3f16dd232391133139fe2844874930a"
+    },
+    {
+      "path": "srsd/val/feynman-i.15.3x.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-i.15.3x.txt",
+      "bytes": 101501,
+      "sha256": "734926a50e4dee65d0aebcb8d084956a9246b4f44a11b71ecf5784032b8885ee"
+    },
+    {
+      "path": "srsd/val/feynman-i.29.16.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-i.29.16.txt",
+      "bytes": 125000,
+      "sha256": "dc6eba958f2219d295f9020b6d6d456ed18fd3c88125552106c2438f55160310"
+    },
+    {
+      "path": "srsd/val/feynman-ii.11.20.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-ii.11.20.txt",
+      "bytes": 126481,
+      "sha256": "d5d85e7fc1cb0cf80816d86f674de25fa46e833f47ead248548fad01202d0995"
+    },
+    {
+      "path": "srsd/val/feynman-ii.11.27.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-ii.11.27.txt",
+      "bytes": 100000,
+      "sha256": "4ef12d9b6742e42b11b143af55db9fdb623c1ff42507871a4d54da2cfd12c937"
+    },
+    {
+      "path": "srsd/val/feynman-ii.11.28.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-ii.11.28.txt",
+      "bytes": 75000,
+      "sha256": "74abfead03bc300ff1fcb9d879ba921f5b0ab1d5c29334599a818c5b6b1a82bd"
+    },
+    {
+      "path": "srsd/val/feynman-iii.10.19.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-iii.10.19.txt",
+      "bytes": 127514,
+      "sha256": "a5396614319ce8a4dbb17ba1ea3dea2c5ea1b85df14d47c9feeed8e8a8ba291d"
+    },
+    {
+      "path": "srsd/val/feynman-iii.21.20.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-iii.21.20.txt",
+      "bytes": 128000,
+      "sha256": "0f278802c111bc7ef4a324f3f40326a23bf923cd3663b66df2ed59133b7cfd48"
+    },
+    {
+      "path": "srsd/val/feynman-iii.4.33.txt",
+      "url": "https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard/resolve/159f9b0986ae71ddaae37486b12860e7001eb5ab/val/feynman-iii.4.33.txt",
+      "bytes": 75000,
+      "sha256": "19d9116d09f5bfee1438f81121fbab5610a0f938433f7310873f44f2404d7c91"
+    }
+  ],
+  "cases": [
+    {
+      "key": "srsd__feynman-i.15.3t",
+      "collection": "SRSD-hard",
+      "id": "feynman-i.15.3t",
+      "dimension": 3,
+      "formula": "(x0 - 1.11265005605362e-17*x1*x2)/sqrt(1 - 1.11265005605362e-17*x1**2)",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-i.15.3x",
+      "collection": "SRSD-hard",
+      "id": "feynman-i.15.3x",
+      "dimension": 3,
+      "formula": "(x0 - x1*x2)/sqrt(1 - 1.11265005605362e-17*x1**2)",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-i.29.16",
+      "collection": "SRSD-hard",
+      "id": "feynman-i.29.16",
+      "dimension": 4,
+      "formula": "sqrt(x0**2 + 2*x0*x1*cos(x2 - x3) + x1**2)",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-ii.11.20",
+      "collection": "SRSD-hard",
+      "id": "feynman-ii.11.20",
+      "dimension": 4,
+      "formula": "2.41432350534664e+22*x0*x1**2*x2/x3",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-ii.11.27",
+      "collection": "SRSD-hard",
+      "id": "feynman-ii.11.27",
+      "dimension": 3,
+      "formula": "8.854e-12*x0*x1*x2/(-x0*x1/3 + 1)",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-ii.11.28",
+      "collection": "SRSD-hard",
+      "id": "feynman-ii.11.28",
+      "dimension": 2,
+      "formula": "x0*x1/(-x0*x1/3 + 1) + 1",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-iii.10.19",
+      "collection": "SRSD-hard",
+      "id": "feynman-iii.10.19",
+      "dimension": 4,
+      "formula": "x0*sqrt(x1**2 + x2**2 + x3**2)",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-iii.21.20",
+      "collection": "SRSD-hard",
+      "id": "feynman-iii.21.20",
+      "dimension": 4,
+      "formula": "-x0*x1*x2/x3",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-iii.4.33",
+      "collection": "SRSD-hard",
+      "id": "feynman-iii.4.33",
+      "dimension": 2,
+      "formula": "3.313e-34*x0/(pi*(exp(2.39959613196403e-11*x0/(pi*x1)) - 1))",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-bonus.1",
+      "collection": "SRSD-hard",
+      "id": "feynman-bonus.1",
+      "dimension": 4,
+      "formula": "3.32662926626791e-57*x0**2*x1**2/(x2**2*sin(x3/2)**4)",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-bonus.10",
+      "collection": "SRSD-hard",
+      "id": "feynman-bonus.10",
+      "dimension": 2,
+      "formula": "(-3.33564095198152e-9*x1 + cos(x0))/(-3.33564095198152e-9*x1*cos(x0) + 1)",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "srsd__feynman-bonus.11",
+      "collection": "SRSD-hard",
+      "id": "feynman-bonus.11",
+      "dimension": 4,
+      "formula": "4*x0*sin(x1/2)**2*sin(x2*x3/2)**2/(x1**2*sin(x3/2)**2)",
+      "source_rows": 10000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Official 8000/1000/1000, identical for all model seeds"
+    },
+    {
+      "key": "pmlb__feynman_I_10_7",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_I_10_7",
+      "dimension": 3,
+      "columns": [
+        "m_0",
+        "v",
+        "c",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_I_12_1",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_I_12_1",
+      "dimension": 2,
+      "columns": [
+        "mu",
+        "Nn",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_I_12_2",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_I_12_2",
+      "dimension": 4,
+      "columns": [
+        "q1",
+        "q2",
+        "epsilon",
+        "r",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_I_12_4",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_I_12_4",
+      "dimension": 3,
+      "columns": [
+        "q1",
+        "epsilon",
+        "r",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_II_10_9",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_II_10_9",
+      "dimension": 3,
+      "columns": [
+        "sigma_den",
+        "epsilon",
+        "chi",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_II_11_27",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_II_11_27",
+      "dimension": 4,
+      "columns": [
+        "n",
+        "alpha",
+        "epsilon",
+        "Ef",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_II_11_28",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_II_11_28",
+      "dimension": 2,
+      "columns": [
+        "n",
+        "alpha",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_II_13_17",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_II_13_17",
+      "dimension": 4,
+      "columns": [
+        "epsilon",
+        "c",
+        "I",
+        "r",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_III_10_19",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_III_10_19",
+      "dimension": 4,
+      "columns": [
+        "mom",
+        "Bx",
+        "By",
+        "Bz",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_III_12_43",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_III_12_43",
+      "dimension": 2,
+      "columns": [
+        "n",
+        "h",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_III_13_18",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_III_13_18",
+      "dimension": 4,
+      "columns": [
+        "E_n",
+        "d",
+        "k",
+        "h",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    },
+    {
+      "key": "pmlb__feynman_III_15_12",
+      "collection": "Feynman-PMLB",
+      "id": "feynman_III_15_12",
+      "dimension": 3,
+      "columns": [
+        "U",
+        "k",
+        "d",
+        "target"
+      ],
+      "target_column": "target",
+      "source_rows": 100000,
+      "training_rows": 8000,
+      "validation_rows": 1000,
+      "test_rows": 1000,
+      "split": "Seeded permutation of pinned source, first 10000 partitioned 8000/1000/1000; indices saved"
+    }
+  ],
+  "split_archives": [
+    {
+      "path": "pmlb__feynman_I_10_7__s0.npz",
+      "sha256": "ce097b9c235d77d90c8de3b1aa7028c2e01f1fc64022713ede21937f410e13fb"
+    },
+    {
+      "path": "pmlb__feynman_I_10_7__s1.npz",
+      "sha256": "0931f6d9937f9a36d7927628cb89c139fd160a70a47bf13f219e4a4da623f8bd"
+    },
+    {
+      "path": "pmlb__feynman_I_10_7__s2.npz",
+      "sha256": "a15f7a245248348dace57c5401cd764f2320eede89f3c00ed43531e91786151e"
+    },
+    {
+      "path": "pmlb__feynman_I_12_1__s0.npz",
+      "sha256": "a1b3bf5b0c8d412d0f6f1b93748553f85ad6bb1e2f2628d033032c6053f69478"
+    },
+    {
+      "path": "pmlb__feynman_I_12_1__s1.npz",
+      "sha256": "0938707ce5126a974273e70e74c56e31a52e3b4baf46a3395b37b0822dd7abbe"
+    },
+    {
+      "path": "pmlb__feynman_I_12_1__s2.npz",
+      "sha256": "815c76e8744bf9a4f5e76787004aca3b2af1cd8d29eb681c340cc5ca7f9148e7"
+    },
+    {
+      "path": "pmlb__feynman_I_12_2__s0.npz",
+      "sha256": "6a914e6eaf81bab9925841de1dcdb843c4a487ca7a35cd5dbdbb648fef3d2b88"
+    },
+    {
+      "path": "pmlb__feynman_I_12_2__s1.npz",
+      "sha256": "128bc5d42c8f4924dc429be6812a731b04ca9fb4ad2efd75e43327b9c68d795e"
+    },
+    {
+      "path": "pmlb__feynman_I_12_2__s2.npz",
+      "sha256": "bd0715012d7622bd59cbd09160e525d62bf0d9234bd3748868a9d766314ba621"
+    },
+    {
+      "path": "pmlb__feynman_I_12_4__s0.npz",
+      "sha256": "5092d6e19e7b3933ff1fce29b0e7b31d78bfb29f31bf89d00a04f1e4392a6fbb"
+    },
+    {
+      "path": "pmlb__feynman_I_12_4__s1.npz",
+      "sha256": "509d5135db1767a25cf61afc0d96fb7bc09cb140319bd784424665b539d439cd"
+    },
+    {
+      "path": "pmlb__feynman_I_12_4__s2.npz",
+      "sha256": "d781bded9713f40e5b0fcfa7daca1b683296861e02db0cae836482d3e72c33ac"
+    },
+    {
+      "path": "pmlb__feynman_II_10_9__s0.npz",
+      "sha256": "18d9f869a692aa9e9f48d764b60ebb23afc82d75990f3a5d291f2e238f3e08a1"
+    },
+    {
+      "path": "pmlb__feynman_II_10_9__s1.npz",
+      "sha256": "5cf592ea98919c4f3681ebb6878ca4279b0ace4471242a53e31bac7fe9b8853a"
+    },
+    {
+      "path": "pmlb__feynman_II_10_9__s2.npz",
+      "sha256": "4e22e181f1f30d88e1041e172dd9ec54173788f22b8f80b3ec164f0ea0485ad9"
+    },
+    {
+      "path": "pmlb__feynman_II_11_27__s0.npz",
+      "sha256": "533dfe3e541472e34040e86cc557acd6b98721eacf0cf13492616702f1cf38d5"
+    },
+    {
+      "path": "pmlb__feynman_II_11_27__s1.npz",
+      "sha256": "4d41906f12b3a897b2de3ef0a0c50b50326b200ce432b6cb82c2f7787444067c"
+    },
+    {
+      "path": "pmlb__feynman_II_11_27__s2.npz",
+      "sha256": "538f18357614770a5c5526abf5b85afcf19607a51dc5d4fa3b98bbe04dd45c4d"
+    },
+    {
+      "path": "pmlb__feynman_II_11_28__s0.npz",
+      "sha256": "64832d9753d80c20f315ea28acdc38d604edd12e8f2e64325cabe8d323286e89"
+    },
+    {
+      "path": "pmlb__feynman_II_11_28__s1.npz",
+      "sha256": "f72b93344a0e6e9f575f40ddd0f30ebbba1bd75ee99768ebe6dd07525f15ae34"
+    },
+    {
+      "path": "pmlb__feynman_II_11_28__s2.npz",
+      "sha256": "4522c97f945c062f300395fe07f2817f54c859fd540a0a7616adae528734ea57"
+    },
+    {
+      "path": "pmlb__feynman_II_13_17__s0.npz",
+      "sha256": "434ac607684488932ca92f6f82e55af1d1f8a47b0ee2c4481fc25009217a4b62"
+    },
+    {
+      "path": "pmlb__feynman_II_13_17__s1.npz",
+      "sha256": "bea2e809c68f2d3488358b6ce56091cd19916b79a1100d3f57bba8f5ad14aed0"
+    },
+    {
+      "path": "pmlb__feynman_II_13_17__s2.npz",
+      "sha256": "0f910248395e5825ba8758538573d0b85fdac1c9f514e59ea23cb37ebf20b0b2"
+    },
+    {
+      "path": "pmlb__feynman_III_10_19__s0.npz",
+      "sha256": "25390d73b900ffa41b5ab5d883faeff3f24a95cd6e418ef0eafb10418d7a81c8"
+    },
+    {
+      "path": "pmlb__feynman_III_10_19__s1.npz",
+      "sha256": "18ae78991e3797a1126a3f9ea531e9ee05c1fd82dc2016b21ce58e592db15c4f"
+    },
+    {
+      "path": "pmlb__feynman_III_10_19__s2.npz",
+      "sha256": "86fecd84d9d2e3660cd7fd99232e97db0daf8f316571a84dd1fead36c24e301e"
+    },
+    {
+      "path": "pmlb__feynman_III_12_43__s0.npz",
+      "sha256": "e84e5f631317e6faa009800d163f6f14e58d3a0c1e45908602aac45ac402c637"
+    },
+    {
+      "path": "pmlb__feynman_III_12_43__s1.npz",
+      "sha256": "44b999b8068e2ff96e73caa8f47923b12f67fd8a8a87abb2bf562551eb7eada3"
+    },
+    {
+      "path": "pmlb__feynman_III_12_43__s2.npz",
+      "sha256": "844dbc805b6167ff4e09bd806af18c79c8f62cb5e2b00c41153685da93ef1f90"
+    },
+    {
+      "path": "pmlb__feynman_III_13_18__s0.npz",
+      "sha256": "1bd748da1130a7b155094b22db545044b4ba0e0b897eda31e425c932495a2bf6"
+    },
+    {
+      "path": "pmlb__feynman_III_13_18__s1.npz",
+      "sha256": "a49d7267302142d916ed7f45e1abf785cdeb3778d76ff83716939409549c9da9"
+    },
+    {
+      "path": "pmlb__feynman_III_13_18__s2.npz",
+      "sha256": "d4a4673223d15d1726b9ff459ef462e1da665d99f61f0c288df7a24d3fcde5c4"
+    },
+    {
+      "path": "pmlb__feynman_III_15_12__s0.npz",
+      "sha256": "5dfebaf42f412eac32f439b3e898adc613dececc869b82b3575aa6ca8b8c2718"
+    },
+    {
+      "path": "pmlb__feynman_III_15_12__s1.npz",
+      "sha256": "2a68fec23b1f105f42dc556ceed100259db3384815f7d17c600708de9ca52813"
+    },
+    {
+      "path": "pmlb__feynman_III_15_12__s2.npz",
+      "sha256": "66c944cd60fa1d55dbc8817ab12198002f21c942cbdedf701705601743a4be0d"
+    },
+    {
+      "path": "srsd__feynman-bonus.1.npz",
+      "sha256": "e51517afe0cd19c91b0747ebb3ae386f4c859068fb1a7964aac16db49a677d77"
+    },
+    {
+      "path": "srsd__feynman-bonus.10.npz",
+      "sha256": "4e9fb6a71711cbc78f1ca20d83459804f8e6401dd1351774a3cc404b430aa593"
+    },
+    {
+      "path": "srsd__feynman-bonus.11.npz",
+      "sha256": "63eeab0d7253197db512ea7272f9d9bc599562f02d6319911109be6b1451d521"
+    },
+    {
+      "path": "srsd__feynman-i.15.3t.npz",
+      "sha256": "3b7608e0856637c2097578927b946513163886a90153a6468fc003ec2b31bfbd"
+    },
+    {
+      "path": "srsd__feynman-i.15.3x.npz",
+      "sha256": "548b1f2000f380d809d6a411aef53076f448c57e27f4afe9c70f8d6e7b9ffda2"
+    },
+    {
+      "path": "srsd__feynman-i.29.16.npz",
+      "sha256": "ea0cbe4a86d7f21a7b5d24f96aa4954c98bca1266f876cb4867277ee745df763"
+    },
+    {
+      "path": "srsd__feynman-ii.11.20.npz",
+      "sha256": "f4f312d64ba4c67da70a693d355d23cecb9efd827a0a2678c1a10db38d49954c"
+    },
+    {
+      "path": "srsd__feynman-ii.11.27.npz",
+      "sha256": "47e8dfd8860e110b8331d613567d74425030dd007d1fc59f6abae427c3dac63f"
+    },
+    {
+      "path": "srsd__feynman-ii.11.28.npz",
+      "sha256": "4836ffe1fc25fb74a08d66e026d5d8a2ec014c687a6212449107408c21de7fe4"
+    },
+    {
+      "path": "srsd__feynman-iii.10.19.npz",
+      "sha256": "bfe2322b3037f307a983d28e390bb5f6a06050b36c48a016fd70f68a55a3cc73"
+    },
+    {
+      "path": "srsd__feynman-iii.21.20.npz",
+      "sha256": "985eb7fb8b8d388201378c2ead45409dfebf2ee24836a64e179b6dda98da9a06"
+    },
+    {
+      "path": "srsd__feynman-iii.4.33.npz",
+      "sha256": "c9ccc2358ac63d4621e095fd560b8170079a26b86e1cd6997c59f5125752c75c"
+    }
+  ]
+}

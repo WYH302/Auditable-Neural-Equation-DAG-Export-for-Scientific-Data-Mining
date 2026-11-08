@@ -1,0 +1,6 @@
+{
+  "model_source": "experiments/run_tabular.py",
+  "model_sha256": "c4c5c334d76c6ce82e6d56b425bcde8b41def5e2f20eb68962d9bfb78e207371",
+  "data_source": "scripts/generate_equation_native.py",
+  "data_source_sha256": "194cbf6f642668a7f7aa935ca16e801a6f3d1bcae92561e9a2a9ea2ea295e10a"
+}

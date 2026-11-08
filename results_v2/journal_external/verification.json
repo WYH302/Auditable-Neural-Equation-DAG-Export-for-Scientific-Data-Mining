@@ -1,0 +1,8 @@
+{
+  "candidates": 1296,
+  "tasks": 24,
+  "exact_splits": 48,
+  "graph_variants": 3888,
+  "inputs_per_candidate": 2000,
+  "maximum_error_in_training_target_std_units": 3.263453752440232e-14
+}

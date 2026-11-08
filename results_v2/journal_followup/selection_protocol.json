@@ -1,0 +1,11 @@
+{
+  "scope": "Rules fixed before inspecting the completed capacity-study results.",
+  "primary_comparison": "For each task/seed, pairs must have both validation NMSE <= 0.01 and maximum/minimum validation NMSE <= 1.25. Choose the pair minimizing maximum validation NMSE; then log-ratio gap; then IDs. Test/OOD values and graph length are not used to select these accuracy-matched pairs.",
+  "ceilings": [
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "ceiling_selection": "Within each method/task/seed, choose smallest dependency-valid expanded-CSE graph satisfying the validation NMSE ceiling; ties use validation NMSE and ID.",
+  "reporting": "Report all candidate results and unpaired cases; report test NMSE, R2, raw/expanded/CSE sizes jointly. No significance claim based on treating seeds as independent equations."
+}

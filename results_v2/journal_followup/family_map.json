@@ -1,0 +1,16 @@
+{
+  "exp_decay": "Exp/log",
+  "log_response": "Exp/log",
+  "power_law": "Power/product",
+  "arrhenius_like": "Exp/log",
+  "michaelis_menten": "Rational",
+  "multiplicative_power": "Power/product",
+  "mixed_exp_log": "Exp/log",
+  "damped_log_response": "Exp/log",
+  "exp_saturation": "Exp/log",
+  "two_var_decay": "Exp/log",
+  "control_quadratic": "Polynomial/product",
+  "control_kinetic_energy": "Polynomial/product",
+  "control_sine": "Trigonometric",
+  "control_sine_cosine": "Trigonometric"
+}

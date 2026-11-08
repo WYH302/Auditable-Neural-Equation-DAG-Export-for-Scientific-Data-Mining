@@ -1,0 +1,212 @@
+{
+  "trials": 756,
+  "tasks": 14,
+  "seeds": 3,
+  "failures": 0,
+  "method_summary": {
+    "mlp": {
+      "selected_runs": 42,
+      "median_test_nmse": 0.0003017691538068667,
+      "median_test_r2": 0.9996982308461931,
+      "median_ood_nmse": 0.010883892260913346,
+      "median_raw_tokens": 3503.5,
+      "median_cse_tokens": 1898.0,
+      "maximum_export_error": 7.105427357601002e-15,
+      "median_inference_ms": 0.15793833299539983
+    },
+    "eml_kan": {
+      "selected_runs": 42,
+      "median_test_nmse": 4.9964843385222816e-05,
+      "median_test_r2": 0.9999500351566148,
+      "median_ood_nmse": 0.018649717799280936,
+      "median_raw_tokens": 1995.5,
+      "median_cse_tokens": 1303.0,
+      "maximum_export_error": 4.440892098500626e-15,
+      "median_inference_ms": 1.1381133333391822
+    },
+    "kan": {
+      "selected_runs": 42,
+      "median_test_nmse": 1.6596009417888194e-06,
+      "median_test_r2": 0.9999983403990582,
+      "median_ood_nmse": 0.15755266557255998,
+      "median_raw_tokens": 3803.5,
+      "median_cse_tokens": 2699.5,
+      "maximum_export_error": 1.0658141036401503e-14,
+      "median_inference_ms": 0.70832833298482
+    }
+  },
+  "strict_matched": {
+    "task_seed_pairs": 36,
+    "tasks": 14,
+    "eml_shorter": 21,
+    "median_cse_ratio": 0.6968275202347944,
+    "median_task_median_cse_ratio": 0.977040111983348,
+    "task_summaries": [
+      {
+        "dataset": "arrhenius_like",
+        "n": 3,
+        "median": 1.0030165912518854,
+        "min": 0.352690463505594,
+        "max": 2.021705426356589
+      },
+      {
+        "dataset": "control_kinetic_energy",
+        "n": 3,
+        "median": 1.464179104477612,
+        "min": 0.4987303199593702,
+        "max": 2.6791147994467495
+      },
+      {
+        "dataset": "control_quadratic",
+        "n": 3,
+        "median": 0.5120845921450151,
+        "min": 0.34839726747241195,
+        "max": 2.0
+      },
+      {
+        "dataset": "control_sine",
+        "n": 2,
+        "median": 0.34745375896306907,
+        "min": 0.34533124673969745,
+        "max": 0.3495762711864407
+      },
+      {
+        "dataset": "control_sine_cosine",
+        "n": 3,
+        "median": 2.792207792207792,
+        "min": 0.9797775530839231,
+        "max": 3.545126353790614
+      },
+      {
+        "dataset": "damped_log_response",
+        "n": 2,
+        "median": 0.43545497807539346,
+        "min": 0.18387096774193548,
+        "max": 0.6870389884088515
+      },
+      {
+        "dataset": "exp_decay",
+        "n": 3,
+        "median": 0.18684931506849314,
+        "min": 0.18028465998945703,
+        "max": 2.0864
+      },
+      {
+        "dataset": "exp_saturation",
+        "n": 2,
+        "median": 1.1917448788562326,
+        "min": 0.3554959785522788,
+        "max": 2.0279937791601865
+      },
+      {
+        "dataset": "log_response",
+        "n": 3,
+        "median": 1.0030165912518854,
+        "min": 0.3528472591804151,
+        "max": 1.0376766091051806
+      },
+      {
+        "dataset": "michaelis_menten",
+        "n": 3,
+        "median": 0.7066160520607375,
+        "min": 0.17851500789889416,
+        "max": 0.7248471372984991
+      },
+      {
+        "dataset": "mixed_exp_log",
+        "n": 2,
+        "median": 1.4871635487748582,
+        "min": 1.0045385779122542,
+        "max": 1.9697885196374623
+      },
+      {
+        "dataset": "multiplicative_power",
+        "n": 2,
+        "median": 1.5408167151390986,
+        "min": 0.2712137486573577,
+        "max": 2.8104196816208393
+      },
+      {
+        "dataset": "power_law",
+        "n": 2,
+        "median": 0.9510636327148105,
+        "min": 0.5143721633888049,
+        "max": 1.3877551020408163
+      },
+      {
+        "dataset": "two_var_decay",
+        "n": 3,
+        "median": 0.5046248715313464,
+        "min": 0.49822605169792195,
+        "max": 0.5109034267912772
+      }
+    ],
+    "unmatched": [
+      {
+        "dataset": "control_sine",
+        "seed": 2,
+        "reason": "No pair below NMSE 0.01 and within factor 1.25"
+      },
+      {
+        "dataset": "damped_log_response",
+        "seed": 2,
+        "reason": "No pair below NMSE 0.01 and within factor 1.25"
+      },
+      {
+        "dataset": "exp_saturation",
+        "seed": 2,
+        "reason": "No pair below NMSE 0.01 and within factor 1.25"
+      },
+      {
+        "dataset": "mixed_exp_log",
+        "seed": 1,
+        "reason": "No pair below NMSE 0.01 and within factor 1.25"
+      },
+      {
+        "dataset": "multiplicative_power",
+        "seed": 0,
+        "reason": "No pair below NMSE 0.01 and within factor 1.25"
+      },
+      {
+        "dataset": "power_law",
+        "seed": 0,
+        "reason": "No pair below NMSE 0.01 and within factor 1.25"
+      }
+    ]
+  },
+  "validation_ceilings": [
+    {
+      "threshold": 0.01,
+      "mlp_feasible": 42,
+      "eml_kan_feasible": 42,
+      "kan_feasible": 42,
+      "paired": 42,
+      "eml_shorter": 5,
+      "median_ratio": 1.3064796388154574
+    },
+    {
+      "threshold": 0.001,
+      "mlp_feasible": 35,
+      "eml_kan_feasible": 42,
+      "kan_feasible": 42,
+      "paired": 35,
+      "eml_shorter": 23,
+      "median_ratio": 0.5246913580246914
+    },
+    {
+      "threshold": 0.0001,
+      "mlp_feasible": 10,
+      "eml_kan_feasible": 28,
+      "kan_feasible": 42,
+      "paired": 9,
+      "eml_shorter": 7,
+      "median_ratio": 0.5143721633888049
+    }
+  ],
+  "fault_cases": {
+    "total": 18,
+    "detected": 18,
+    "localized": 18,
+    "max_repaired_error": 1.7763568394002505e-15
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "candidates": 1296,
+  "tasks": 24,
+  "seeds": 3,
+  "failed": 0,
+  "best_validation": [
+    {
+      "collection": "Feynman-PMLB",
+      "method": "mlp",
+      "n": 36,
+      "median_test_nmse": 0.004044143046549145,
+      "median_test_r2": 0.9959558569534508,
+      "median_raw": 3806.5,
+      "median_cse": 2048.5,
+      "feasible_1e2": 25,
+      "max_normalized_export_error": 6.88222241950488e-15
+    },
+    {
+      "collection": "Feynman-PMLB",
+      "method": "eml_kan",
+      "n": 36,
+      "median_test_nmse": 0.0017781101227367243,
+      "median_test_r2": 0.9982218898772632,
+      "median_raw": 3919.5,
+      "median_cse": 2568.0,
+      "feasible_1e2": 32,
+      "max_normalized_export_error": 1.179809557629408e-14
+    },
+    {
+      "collection": "Feynman-PMLB",
+      "method": "kan",
+      "n": 36,
+      "median_test_nmse": 0.0002142217614209054,
+      "median_test_r2": 0.9997857782385791,
+      "median_raw": 7542.0,
+      "median_cse": 4266.0,
+      "feasible_1e2": 33,
+      "max_normalized_export_error": 1.179809557629408e-14
+    },
+    {
+      "collection": "SRSD-hard",
+      "method": "mlp",
+      "n": 36,
+      "median_test_nmse": 0.005459670320814601,
+      "median_test_r2": 0.9945403296791855,
+      "median_raw": 3735.0,
+      "median_cse": 1987.0,
+      "feasible_1e2": 21,
+      "max_normalized_export_error": 2.538241807453514e-14
+    },
+    {
+      "collection": "SRSD-hard",
+      "method": "eml_kan",
+      "n": 36,
+      "median_test_nmse": 0.012686355175712549,
+      "median_test_r2": 0.9873136448242874,
+      "median_raw": 3929.0,
+      "median_cse": 2567.5,
+      "feasible_1e2": 18,
+      "max_normalized_export_error": 3.263453752440232e-14
+    },
+    {
+      "collection": "SRSD-hard",
+      "method": "kan",
+      "n": 36,
+      "median_test_nmse": 0.0013705014903345096,
+      "median_test_r2": 0.9986294985096655,
+      "median_raw": 7537.5,
+      "median_cse": 4266.0,
+      "feasible_1e2": 21,
+      "max_normalized_export_error": 3.082150766193553e-14
+    }
+  ],
+  "near_error": [
+    {
+      "collection": "Feynman-PMLB",
+      "pairs": 18,
+      "tasks": 8,
+      "eml_shorter": 9,
+      "pooled_median": 0.9949203671490491,
+      "task_balanced_median": 1.1921235564823047
+    },
+    {
+      "collection": "SRSD-hard",
+      "pairs": 16,
+      "tasks": 6,
+      "eml_shorter": 7,
+      "pooled_median": 1.0208772245910045,
+      "task_balanced_median": 0.9981084663468359
+    }
+  ],
+  "ceilings": [
+    {
+      "collection": "Feynman-PMLB",
+      "ceiling": 0.01,
+      "mlp_feasible": 25,
+      "eml_kan_feasible": 32,
+      "kan_feasible": 33,
+      "pairs": 25,
+      "eml_shorter": 9,
+      "median_ratio": 1.66996699669967
+    },
+    {
+      "collection": "Feynman-PMLB",
+      "ceiling": 0.001,
+      "mlp_feasible": 10,
+      "eml_kan_feasible": 14,
+      "kan_feasible": 27,
+      "pairs": 9,
+      "eml_shorter": 2,
+      "median_ratio": 1.0173137460650576
+    },
+    {
+      "collection": "Feynman-PMLB",
+      "ceiling": 0.0001,
+      "mlp_feasible": 0,
+      "eml_kan_feasible": 0,
+      "kan_feasible": 15,
+      "pairs": 0,
+      "eml_shorter": 0,
+      "median_ratio": null
+    },
+    {
+      "collection": "SRSD-hard",
+      "ceiling": 0.01,
+      "mlp_feasible": 21,
+      "eml_kan_feasible": 18,
+      "kan_feasible": 21,
+      "pairs": 18,
+      "eml_shorter": 1,
+      "median_ratio": 2.086804822187607
+    },
+    {
+      "collection": "SRSD-hard",
+      "ceiling": 0.001,
+      "mlp_feasible": 9,
+      "eml_kan_feasible": 10,
+      "kan_feasible": 15,
+      "pairs": 9,
+      "eml_shorter": 4,
+      "median_ratio": 1.8267148014440433
+    },
+    {
+      "collection": "SRSD-hard",
+      "ceiling": 0.0001,
+      "mlp_feasible": 4,
+      "eml_kan_feasible": 6,
+      "kan_feasible": 8,
+      "pairs": 4,
+      "eml_shorter": 2,
+      "median_ratio": 0.8267906872560373
+    }
+  ],
+  "max_normalized_export_error": 3.263453752440232e-14,
+  "numerical_failures": 0,
+  "source_provenance_sha256": "6aa28a8081c937c23de7b4582e8cbec8201c9d1fb64824feec554e530f4b5095"
+}

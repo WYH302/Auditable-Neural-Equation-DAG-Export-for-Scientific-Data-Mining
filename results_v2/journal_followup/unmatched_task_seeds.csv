@@ -1,0 +1,7 @@
+dataset,seed,reason
+control_sine,2,No pair below NMSE 0.01 and within factor 1.25
+damped_log_response,2,No pair below NMSE 0.01 and within factor 1.25
+exp_saturation,2,No pair below NMSE 0.01 and within factor 1.25
+mixed_exp_log,1,No pair below NMSE 0.01 and within factor 1.25
+multiplicative_power,0,No pair below NMSE 0.01 and within factor 1.25
+power_law,0,No pair below NMSE 0.01 and within factor 1.25

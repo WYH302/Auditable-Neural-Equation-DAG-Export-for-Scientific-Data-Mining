@@ -1,0 +1,118 @@
+{
+  "srsd_revision": "159f9b0986ae71ddaae37486b12860e7001eb5ab",
+  "pmlb_revision": "7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68",
+  "selection_rule": "Before model fitting: SRSD hard uses first three lexically sorted eligible IDs from chapters I, II, III and bonus (1-4 inputs). PMLB Feynman uses first four eligible IDs per chapter I, II, III in the initially inspected first 14 sorted IDs (1-4 inputs). No outcome-based selection.",
+  "srsd": [
+    {
+      "id": "feynman-i.15.3t",
+      "dimension": 3,
+      "formula": "(x0 - 1.11265005605362e-17*x1*x2)/sqrt(1 - 1.11265005605362e-17*x1**2)"
+    },
+    {
+      "id": "feynman-i.15.3x",
+      "dimension": 3,
+      "formula": "(x0 - x1*x2)/sqrt(1 - 1.11265005605362e-17*x1**2)"
+    },
+    {
+      "id": "feynman-i.29.16",
+      "dimension": 4,
+      "formula": "sqrt(x0**2 + 2*x0*x1*cos(x2 - x3) + x1**2)"
+    },
+    {
+      "id": "feynman-ii.11.20",
+      "dimension": 4,
+      "formula": "2.41432350534664e+22*x0*x1**2*x2/x3"
+    },
+    {
+      "id": "feynman-ii.11.27",
+      "dimension": 3,
+      "formula": "8.854e-12*x0*x1*x2/(-x0*x1/3 + 1)"
+    },
+    {
+      "id": "feynman-ii.11.28",
+      "dimension": 2,
+      "formula": "x0*x1/(-x0*x1/3 + 1) + 1"
+    },
+    {
+      "id": "feynman-iii.10.19",
+      "dimension": 4,
+      "formula": "x0*sqrt(x1**2 + x2**2 + x3**2)"
+    },
+    {
+      "id": "feynman-iii.21.20",
+      "dimension": 4,
+      "formula": "-x0*x1*x2/x3"
+    },
+    {
+      "id": "feynman-iii.4.33",
+      "dimension": 2,
+      "formula": "3.313e-34*x0/(pi*(exp(2.39959613196403e-11*x0/(pi*x1)) - 1))"
+    },
+    {
+      "id": "feynman-bonus.1",
+      "dimension": 4,
+      "formula": "3.32662926626791e-57*x0**2*x1**2/(x2**2*sin(x3/2)**4)"
+    },
+    {
+      "id": "feynman-bonus.10",
+      "dimension": 2,
+      "formula": "(-3.33564095198152e-9*x1 + cos(x0))/(-3.33564095198152e-9*x1*cos(x0) + 1)"
+    },
+    {
+      "id": "feynman-bonus.11",
+      "dimension": 4,
+      "formula": "4*x0*sin(x1/2)**2*sin(x2*x3/2)**2/(x1**2*sin(x3/2)**2)"
+    }
+  ],
+  "pmlb": [
+    {
+      "id": "feynman_I_10_7",
+      "dimension": 3
+    },
+    {
+      "id": "feynman_I_12_1",
+      "dimension": 2
+    },
+    {
+      "id": "feynman_I_12_2",
+      "dimension": 4
+    },
+    {
+      "id": "feynman_I_12_4",
+      "dimension": 3
+    },
+    {
+      "id": "feynman_II_10_9",
+      "dimension": 3
+    },
+    {
+      "id": "feynman_II_11_27",
+      "dimension": 4
+    },
+    {
+      "id": "feynman_II_11_28",
+      "dimension": 2
+    },
+    {
+      "id": "feynman_II_13_17",
+      "dimension": 4
+    },
+    {
+      "id": "feynman_III_10_19",
+      "dimension": 4
+    },
+    {
+      "id": "feynman_III_12_43",
+      "dimension": 2
+    },
+    {
+      "id": "feynman_III_13_18",
+      "dimension": 4
+    },
+    {
+      "id": "feynman_III_15_12",
+      "dimension": 3
+    }
+  ],
+  "scope": "New, traceable external-data reruns. These do not reconstruct the historical unidentified clean12 and grouped splits."
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "srsd__feynman-ii.11.20__s0__mlp__w4__lr0.003",
+    "status": "ok",
+    "seconds": 1.172,
+    "validation_nmse": 1.1900020462978922,
+    "test_nmse": 1.3406408922878879,
+    "cse_tokens": 329,
+    "normalized_export_error": 1.1488006990963028e-16
+  },
+  {
+    "id": "srsd__feynman-ii.11.20__s0__eml_kan__w4__lr0.003",
+    "status": "ok",
+    "seconds": 0.368,
+    "validation_nmse": 0.9626884242281017,
+    "test_nmse": 0.9641950758598503,
+    "cse_tokens": 1624,
+    "normalized_export_error": 1.9146678318271715e-16
+  },
+  {
+    "id": "srsd__feynman-ii.11.20__s0__kan__w4__lr0.003",
+    "status": "ok",
+    "seconds": 0.721,
+    "validation_nmse": 1.1536817755531925,
+    "test_nmse": 1.4383940332442702,
+    "cse_tokens": 3005,
+    "normalized_export_error": 2.56565489464841e-15
+  }
+]

@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "methods": [
+    "mlp",
+    "eml_kan",
+    "kan"
+  ],
+  "widths": {
+    "mlp": [
+      4,
+      8,
+      16
+    ],
+    "eml_kan": [
+      2,
+      4,
+      8
+    ],
+    "kan": [
+      2,
+      4,
+      8
+    ]
+  },
+  "learning_rates": [
+    0.001,
+    0.003
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "maximum_updates": 600,
+  "batch_size": 256,
+  "sampling": "Seeded draws with replacement from the full 8000-row training split",
+  "validation_every": 20,
+  "patience_updates": 120,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "penalties": {
+    "gate": 0.0001,
+    "coefficient": 1e-05,
+    "affine_constants": 1e-06
+  },
+  "dtype": "float64",
+  "device": "cpu",
+  "workers": 4,
+  "torch_threads_per_worker": 1,
+  "precision": "17-digit graph constants",
+  "normalized_export_tolerance": "max|checkpoint-export|/training_y_std <= 1e-9*max(1,max|checkpoint|/training_y_std)",
+  "selection": {
+    "srsd_revision": "159f9b0986ae71ddaae37486b12860e7001eb5ab",
+    "pmlb_revision": "7c1f4bdc00136dc2e55c87fa6b8ba6e8af6d1a68",
+    "selection_rule": "Before model fitting: SRSD hard uses first three lexically sorted eligible IDs from chapters I, II, III and bonus (1-4 inputs). PMLB Feynman uses first four eligible IDs per chapter I, II, III in the initially inspected first 14 sorted IDs (1-4 inputs). No outcome-based selection.",
+    "srsd": [
+      {
+        "id": "feynman-i.15.3t",
+        "dimension": 3,
+        "formula": "(x0 - 1.11265005605362e-17*x1*x2)/sqrt(1 - 1.11265005605362e-17*x1**2)"
+      },
+      {
+        "id": "feynman-i.15.3x",
+        "dimension": 3,
+        "formula": "(x0 - x1*x2)/sqrt(1 - 1.11265005605362e-17*x1**2)"
+      },
+      {
+        "id": "feynman-i.29.16",
+        "dimension": 4,
+        "formula": "sqrt(x0**2 + 2*x0*x1*cos(x2 - x3) + x1**2)"
+      },
+      {
+        "id": "feynman-ii.11.20",
+        "dimension": 4,
+        "formula": "2.41432350534664e+22*x0*x1**2*x2/x3"
+      },
+      {
+        "id": "feynman-ii.11.27",
+        "dimension": 3,
+        "formula": "8.854e-12*x0*x1*x2/(-x0*x1/3 + 1)"
+      },
+      {
+        "id": "feynman-ii.11.28",
+        "dimension": 2,
+        "formula": "x0*x1/(-x0*x1/3 + 1) + 1"
+      },
+      {
+        "id": "feynman-iii.10.19",
+        "dimension": 4,
+        "formula": "x0*sqrt(x1**2 + x2**2 + x3**2)"
+      },
+      {
+        "id": "feynman-iii.21.20",
+        "dimension": 4,
+        "formula": "-x0*x1*x2/x3"
+      },
+      {
+        "id": "feynman-iii.4.33",
+        "dimension": 2,
+        "formula": "3.313e-34*x0/(pi*(exp(2.39959613196403e-11*x0/(pi*x1)) - 1))"
+      },
+      {
+        "id": "feynman-bonus.1",
+        "dimension": 4,
+        "formula": "3.32662926626791e-57*x0**2*x1**2/(x2**2*sin(x3/2)**4)"
+      },
+      {
+        "id": "feynman-bonus.10",
+        "dimension": 2,
+        "formula": "(-3.33564095198152e-9*x1 + cos(x0))/(-3.33564095198152e-9*x1*cos(x0) + 1)"
+      },
+      {
+        "id": "feynman-bonus.11",
+        "dimension": 4,
+        "formula": "4*x0*sin(x1/2)**2*sin(x2*x3/2)**2/(x1**2*sin(x3/2)**2)"
+      }
+    ],
+    "pmlb": [
+      {
+        "id": "feynman_I_10_7",
+        "dimension": 3
+      },
+      {
+        "id": "feynman_I_12_1",
+        "dimension": 2
+      },
+      {
+        "id": "feynman_I_12_2",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_I_12_4",
+        "dimension": 3
+      },
+      {
+        "id": "feynman_II_10_9",
+        "dimension": 3
+      },
+      {
+        "id": "feynman_II_11_27",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_II_11_28",
+        "dimension": 2
+      },
+      {
+        "id": "feynman_II_13_17",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_III_10_19",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_III_12_43",
+        "dimension": 2
+      },
+      {
+        "id": "feynman_III_13_18",
+        "dimension": 4
+      },
+      {
+        "id": "feynman_III_15_12",
+        "dimension": 3
+      }
+    ],
+    "scope": "New, traceable external-data reruns. These do not reconstruct the historical unidentified clean12 and grouped splits."
+  },
+  "ceilings": [
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "ceiling_selection": "Smallest expanded-CSE graph satisfying the shared validation-error ceiling; ties use validation NMSE and ID.",
+  "scope": "New external-data rerun, not recovery of historical unidentified checkpoint summaries.",
+  "signature": "f9bab702d28dba029ab79dc8761e856958d3ac4483bbcd8e7341e9a81709c59f",
+  "numpy_version": "2.4.6",
+  "torch_version": "2.8.0+cu128"
+}

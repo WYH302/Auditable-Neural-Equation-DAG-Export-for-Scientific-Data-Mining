@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mixed_exp_log__s0__mlp__w8__lr0.003",
+    "status": "ok",
+    "seconds": 0.09448900003917515,
+    "validation_nmse": 0.3032745816771518,
+    "test_nmse": 0.30083433353862743,
+    "raw_tokens": 1033,
+    "cse_tokens": 686,
+    "export_seconds": 0.1784089999855496
+  },
+  {
+    "id": "mixed_exp_log__s0__eml_kan__w8__lr0.003",
+    "status": "ok",
+    "seconds": 0.17689050000626594,
+    "validation_nmse": 0.1446376982719931,
+    "test_nmse": 0.136288378490954,
+    "raw_tokens": 1990,
+    "cse_tokens": 1303,
+    "export_seconds": 0.16193389997351915
+  },
+  {
+    "id": "mixed_exp_log__s0__kan__w8__lr0.003",
+    "status": "ok",
+    "seconds": 0.12094289995729923,
+    "validation_nmse": 0.007263853015159612,
+    "test_nmse": 0.0073299857396039395,
+    "raw_tokens": 3806,
+    "cse_tokens": 2699,
+    "export_seconds": 0.5798668999923393
+  }
+]
