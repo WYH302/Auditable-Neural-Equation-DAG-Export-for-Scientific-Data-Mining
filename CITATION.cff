@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use EML-KAN or this repository in your research, please cite our work as below."
+message: "If you find EML-KAN or these symbolic export utilities helpful in your work, you are welcome to cite this repository."
 title: "EML-KAN: Stabilized Exponential-Logarithmic Edge Networks for Accurate and Auditable Scientific Regression"
 type: software
 license: MIT
@@ -7,22 +7,16 @@ repository-code: "https://github.com/WYH302/Auditable-Neural-Equation-DAG-Export
 authors:
   - family-names: "Wu"
     given-names: "Yonghao"
-    affiliation: "South China University of Technology"
   - family-names: "Wu"
     given-names: "Jiayang"
-    affiliation: "Jinan University"
   - family-names: "He"
     given-names: "Sirui"
-    affiliation: "Penn State University"
   - family-names: "Liu"
     given-names: "Chang"
-    affiliation: "South China University of Technology"
   - family-names: "Filaretov"
     given-names: "Vladimir"
-    affiliation: "Institute of Automation and Control Processes, Far Eastern Branch of the Russian Academy of Sciences"
   - family-names: "Yukhimets"
     given-names: "Dmitry"
-    affiliation: "Institute of Automation and Control Processes, Far Eastern Branch of the Russian Academy of Sciences"
 keywords:
   - "scientific machine learning"
   - "symbolic regression"

@@ -17,6 +17,10 @@ class OODFailurePlotTests(unittest.TestCase):
         self.assertEqual(plots.input_columns(["x1", "y"]), ["x1"])
         self.assertEqual(plots.input_columns(["x1", "x2", "y"]), ["x1", "x2"])
 
+    @unittest.skipUnless(
+        plots.split_path("inverse_quadratic", 0, "train").exists(),
+        "local synthetic split CSVs not generated in fresh clone",
+    )
     def test_selected_cases_are_one_dimensional(self):
         self.assertTrue(plots.is_one_dimensional_case("inverse_quadratic", seed=0))
         self.assertFalse(plots.is_one_dimensional_case("poly_2d_x2_2y_1", seed=0))

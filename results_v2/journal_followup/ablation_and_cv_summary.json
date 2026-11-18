@@ -1,0 +1,149 @@
+{
+  "elapsed_seconds": 1617.8,
+  "hardware": {
+    "cpu": "AMD Ryzen 7 5700X (8C/16T)",
+    "ram_gb": 64,
+    "gpu_workstation": "NVIDIA GeForce RTX 3090 (24 GB VRAM)",
+    "dtype": "float64"
+  },
+  "extended_baselines": {
+    "cheby_kan": {
+      "total_candidates": 252,
+      "converged_candidates": 252,
+      "selected_runs": 42,
+      "median_test_nmse": 7.347727417621229e-06,
+      "median_test_r2": 0.9999926522725824,
+      "median_ood_nmse": 0.15829407275790985,
+      "median_raw_tokens": 2589.5,
+      "median_cse_tokens": 1524.0
+    },
+    "bspline_kan": {
+      "total_candidates": 252,
+      "converged_candidates": 252,
+      "selected_runs": 42,
+      "median_test_nmse": 8.505983376282893e-05,
+      "median_test_r2": 0.9999149401662372,
+      "median_ood_nmse": 0.02304839354811347,
+      "median_raw_tokens": 17191.5,
+      "median_cse_tokens": 8190.5
+    }
+  },
+  "ablation_study": {
+    "raw_eml_eql": {
+      "total_runs": 84,
+      "nonfinite_runs": 81,
+      "convergence_rate_pct": 3.57,
+      "feasible_task_seeds": 2,
+      "median_test_nmse": 0.0002983188035881303,
+      "median_ood_nmse": NaN
+    },
+    "unbounded_exp": {
+      "total_runs": 84,
+      "nonfinite_runs": 0,
+      "convergence_rate_pct": 100.0,
+      "feasible_task_seeds": 42,
+      "median_test_nmse": 0.0008129652602098269,
+      "median_ood_nmse": NaN
+    },
+    "abs_log": {
+      "total_runs": 84,
+      "nonfinite_runs": 0,
+      "convergence_rate_pct": 100.0,
+      "feasible_task_seeds": 42,
+      "median_test_nmse": 0.0006241370990227203,
+      "median_ood_nmse": 0.05237499471767043
+    },
+    "no_bypass": {
+      "total_runs": 84,
+      "nonfinite_runs": 0,
+      "convergence_rate_pct": 100.0,
+      "feasible_task_seeds": 42,
+      "median_test_nmse": 0.0002151656845362712,
+      "median_ood_nmse": 0.05885339574625871
+    },
+    "no_gate": {
+      "total_runs": 84,
+      "nonfinite_runs": 0,
+      "convergence_rate_pct": 100.0,
+      "feasible_task_seeds": 42,
+      "median_test_nmse": 4.498918208288555e-05,
+      "median_ood_nmse": 0.01645607665730232
+    },
+    "depth_T1": {
+      "total_runs": 84,
+      "nonfinite_runs": 0,
+      "convergence_rate_pct": 100.0,
+      "feasible_task_seeds": 42,
+      "median_test_nmse": 0.0006668059156215751,
+      "median_ood_nmse": 0.03217524954821543
+    },
+    "full_T2": {
+      "total_runs": 84,
+      "nonfinite_runs": 0,
+      "convergence_rate_pct": 100.0,
+      "feasible_task_seeds": 42,
+      "median_test_nmse": 0.00010832568344974986,
+      "median_ood_nmse": 0.03567073582064688
+    },
+    "depth_T3": {
+      "total_runs": 84,
+      "nonfinite_runs": 0,
+      "convergence_rate_pct": 100.0,
+      "feasible_task_seeds": 42,
+      "median_test_nmse": 4.6256749239308506e-05,
+      "median_ood_nmse": 0.03662834566581652
+    }
+  },
+  "five_fold_cv": {
+    "mlp": {
+      "folds": 70,
+      "median_test_nmse": 0.0001721383701556695,
+      "iqr_test_nmse": [
+        6.378000659698598e-05,
+        0.0005634806148730369
+      ],
+      "median_test_r2": 0.9998278616298444,
+      "wilcoxon_p_vs_eml": 9.576433007828065e-09
+    },
+    "cheby_kan": {
+      "folds": 70,
+      "median_test_nmse": 1.8055207395906576e-05,
+      "iqr_test_nmse": [
+        1.2589737970432075e-05,
+        4.5021812828915606e-05
+      ],
+      "median_test_r2": 0.9999819447926042,
+      "wilcoxon_p_vs_eml": 1.0234723303725595e-11
+    },
+    "bspline_kan": {
+      "folds": 70,
+      "median_test_nmse": 0.00013865283122423995,
+      "iqr_test_nmse": [
+        3.517350231873741e-05,
+        0.0002610312935533533
+      ],
+      "median_test_r2": 0.9998613471687758,
+      "wilcoxon_p_vs_eml": 0.023705523929043678
+    },
+    "rbf_kan": {
+      "folds": 70,
+      "median_test_nmse": 2.1568929654741625e-06,
+      "iqr_test_nmse": [
+        8.025119008438352e-07,
+        1.0043691980749826e-05
+      ],
+      "median_test_r2": 0.9999978431070345,
+      "wilcoxon_p_vs_eml": 3.559469460061398e-13
+    },
+    "eml_kan": {
+      "folds": 70,
+      "median_test_nmse": 5.05549403276115e-05,
+      "iqr_test_nmse": [
+        3.236639429847566e-05,
+        0.00012352290069745893
+      ],
+      "median_test_r2": 0.9999494450596724,
+      "wilcoxon_p_vs_eml": 1.0
+    }
+  }
+}
